@@ -1,0 +1,127 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.upper{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    color: white;
+    justify-content: space-between;
+    width: 375px;
+    background-color: hsl(10, 79%, 65%);
+}
+.lower{
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+.lower h1{
+    color: hsl(25, 47%, 15%)
+}
+main{
+    width: 375px;
+}
+.balance{
+    display: flex;
+    gap: 0.1rem;
+    flex-direction: column;
+}
+.balance p{
+    font-weight: 400;
+}
+.mychart{
+    max-height: 200px;
+    margin-bottom: 2rem;
+    
+}
+.chart-wrapper{
+    cursor: pointer;
+    height: 200px;
+    margin: 3px;
+    display: inline-block;
+
+}
+.mychart p{
+    justify-content: center;
+    margin-top: 1rem;
+    display: flex;
+    color: hsl(28, 10%, 53%)
+}
+.lower .chart{
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.chart{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    margin-bottom: 5px;
+}
+.chart3{
+    background-color: cyan;
+}
+.chart1{
+    height: 25%;
+}
+.chart2{
+    height: 50%;
+}
+.chart3{
+    height: 70%;
+}
+.chart4{
+    height: 50%;
+}
+.chart5{
+    height: 40%;
+}
+.chart6{
+    height: 55%;
+}
+.chart7{
+    height: 30%;
+}
+.text{ 
+    text-emphasis: center;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.month p{
+    color: hsl(28, 10%, 53%);
+}
+.month h2{
+    color: hsl(25, 47%, 15%);
+}
+.Last-month p{
+    font-weight: 700;
+    margin-left: 150px;
+    font-size: 14px;
+    color:hsl(25, 47%, 15%);
+}
+.Last-month h6{
+    font-weight: 700;
+    color: hsl(28, 10%, 53%);
+    margin-left: 111px;
+}
+
+
+
